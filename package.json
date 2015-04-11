@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:getcahoots/provider.git"
+    "url": "git@github.com:getcahoots/provider-torial.git"
   },
   "keywords": [
     "cahoots.pw",
@@ -29,9 +29,9 @@
   "author": "André König <andre@cahoots.ninja>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/getcahoots/provider/issues"
+    "url": "https://github.com/getcahoots/provider-torial/issues"
   },
-  "homepage": "https://github.com/getcahoots/provider",
+  "homepage": "https://github.com/getcahoots/provider-torial",
   "devDependencies": {
     "expect.js": "^0.3.1",
     "gulp": "^3.8.10",
