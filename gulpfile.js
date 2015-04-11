@@ -25,6 +25,7 @@ var paths = {};
 
 paths.sources = [
     path.join(__dirname, '*.js'),
+    path.join(__dirname, 'lib', '**', '*.js'),
     path.join(__dirname, 'specs', '**', '*.spec.js')
 ];
 

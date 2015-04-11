@@ -7,5 +7,6 @@
    "disallowSpacesInAnonymousFunctionExpression": null,
    "safeContextKeyword": "self",
    "requireMultipleVarDecl": null,
-   "disallowAnonymousFunctions": true
+   "disallowAnonymousFunctions": true,
+   "requireCamelCaseOrUpperCaseIdentifiers": null
 }
