@@ -1,6 +1,6 @@
 {
   "name": "cahoots-provider-torial",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.0",
   "description": "The torial provider module for Cahoots",
   "main": "index.js",
   "scripts": {
@@ -43,9 +43,10 @@
     "pre-commit": "^1.0.6"
   },
   "dependencies": {
-    "cahoots-provider-torial-storage": "file:./lib/storage",
-    "cahoots-provider-torial-sync": "file:./lib/sync",
+    "async-light": "^1.0.1",
+    "bucketdb": "^1.0.0",
     "debug": "^2.1.3",
+    "duperagent": "^1.0.0",
     "mandatory": "^1.0.0",
     "verror": "^1.6.0"
   }
