@@ -7,7 +7,7 @@ The torial provider module for the Cahoots provider application
 ```js
 var torial = require('cahoots-provider-torial');
 
-var persons = torial('persons'); // or: 'organizations'
+var person = torial('person'); // or: 'organizations'
 
 function onFind (err, persons) {
 	if (err) {
@@ -17,7 +17,7 @@ function onFind (err, persons) {
 	console.log(persons[0]);
 }
 
-persons.query({id: 'André König'}, onFind);
+person.query({name: 'André König'}, onFind);
 ```
 
 ## Configuration
