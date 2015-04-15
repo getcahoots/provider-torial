@@ -22,6 +22,7 @@ person.query({name: 'André König'}, onFind);
 
 ## Configuration
 
+  * `CAHOOTS_PROVIDER_TORIAL_API_ENDPOINT`: The endpoint of the torial API.
   * `CAHOOTS_PROVIDER_TORIAL_DATABASE_PATH`: The path to the internal torial database.
   * `CAHOOTS_PROVIDER_TORIAL_SYNC_INTERVAL`: The sync interval in ms. Default `(60 * 1000) * 60 * 24` (24h).
 
