@@ -1,5 +1,5 @@
 {
-  "name": "cahoots-provider-torial",
+  "name": "@getcahoots/provider-torial",
   "version": "1.0.0-beta.6",
   "description": "The torial provider module for Cahoots",
   "main": "index.js",
