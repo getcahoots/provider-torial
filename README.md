@@ -1,11 +1,11 @@
 # Cahoots - Provider - torial
 
-The torial provider module for the Cahoots provider application
+The torial provider module for the Cahoots provider abstraction
 
 ## Usage example
 
 ```js
-var torial = require('cahoots-provider-torial');
+var torial = require('@getcahoots/provider-torial');
 
 var person = torial('person'); // or: 'organizations'
 
