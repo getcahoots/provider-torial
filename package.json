@@ -9,11 +9,6 @@
     "specs": "gulp specs",
     "checkstyle": "gulp checkstyle"
   },
-  "pre-commit": [
-    "lint",
-    "checkstyle",
-    "specs"
-  ],
   "engine": {
     "iojs": "^1.6.0"
   },
@@ -39,8 +34,7 @@
     "gulp-jshint": "^1.9.0",
     "gulp-mocha": "^2.0.0",
     "jshint-stylish": "^1.0.0",
-    "run-sequence": "^1.0.2",
-    "pre-commit": "^1.0.6"
+    "run-sequence": "^1.0.2"
   },
   "dependencies": {
     "async-light": "^1.0.1",
